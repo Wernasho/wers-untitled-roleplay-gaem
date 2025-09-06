@@ -1,0 +1,7 @@
+{
+  "id": "health_potion_medium",
+  "name": "Medium health potion",
+  "description": "Restores 32 HP",
+  "type": "consumable",
+  "restore_effects": {"hp": 32}
+}

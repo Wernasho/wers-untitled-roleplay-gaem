@@ -1,0 +1,7 @@
+{
+  "id": "health_potion_small",
+  "name": "Small health potion",
+  "description": "Restores 8 HP",
+  "type": "consumable",
+  "restore_effects": {"hp": 8}
+}
