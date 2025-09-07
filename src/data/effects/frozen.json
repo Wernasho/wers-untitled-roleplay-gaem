@@ -1,0 +1,8 @@
+{
+  "id": "frozen",
+  "name": "Frozen",
+  "type": "stun",
+  "defLvl": 1,
+  "duration": 1,
+  "sideEffects": {"damage": 2}
+}

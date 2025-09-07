@@ -1,0 +1,7 @@
+{
+  "id": "apple",
+  "name": "Apple",
+  "description": "Mmm! Yummy apple!",
+  "type": "consumable",
+  "restore_effects": {"hp": 5}
+}

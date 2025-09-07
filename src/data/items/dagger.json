@@ -1,0 +1,8 @@
+{
+  "id": "dagger",
+  "name": "Dagger",
+  "description": "Deals 8 damage",
+  "type": "usable",
+  "debuff_effects": {"hp": -8},
+  "message": "Hey, I never said you were going to use the dagger on the enemy, did I? :3 \n—wer"
+}

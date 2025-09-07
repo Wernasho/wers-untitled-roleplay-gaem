@@ -4,7 +4,6 @@ da_boss = Enemy(hp=123456789, lvl=10**10, atk=32, Def=8) # peak variable name, I
 da_boss.name = "God"
 da_boss.attacks = {
   "Dissassembly":{
-    "id": "dis",
     "damage": 20,
     "no_def": False,
     "effects": {
@@ -12,7 +11,6 @@ da_boss.attacks = {
     }
   },
   "Fortification": {
-    "id": "fort",
     "damage": 0,
     "no_def": False,
     "effects": {
@@ -22,7 +20,6 @@ da_boss.attacks = {
     }
   },
   "Punch": {
-    "id": "punch",
     "damage": 18,
     "no_def": True,
     "effects": {
@@ -30,7 +27,6 @@ da_boss.attacks = {
     }
   },
   "Self-Help": {
-    "id": "self",
     "damage": 0,
     "no_def": False,
     "effects": {
@@ -39,11 +35,15 @@ da_boss.attacks = {
     }
   }, 
   "Polarization": {
-    "id": "polar",
     "damage": 0,
     "no_def": True, 
     "effects": {
       "frozen": {"duration": 2, "lvl": 3, "onself": False}
     }
+  },
+  "aPpel": {
+      "damage": 0,
+      "no_def": False,
+      "effects": None
   }
 }

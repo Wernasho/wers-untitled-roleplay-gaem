@@ -1,0 +1,8 @@
+{
+  "id": "appel",
+  "name": "aPpel",
+  "description": "Mmm! Yummy aPpel¡",
+  "type": "consumable",
+  "debuff_effects": {"hp": -15},
+  "message": "You should've paid more attention to the name :^\n—wer"
+}

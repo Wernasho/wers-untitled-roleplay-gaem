@@ -1,0 +1,9 @@
+{
+  "id": "posioned",
+  "name": "Poisoned",
+  "type": "overTimeDmg",
+  "defLvl": 1,
+  "dmgBonusPerLevel": 3,
+  "duration": 5,
+  "damage": 4
+}
