@@ -5,5 +5,6 @@
   "maxHp": 8,
   "def": 0,
   "atk": 2,
+  "inv": 10,
   "checkpoint": 1
 }

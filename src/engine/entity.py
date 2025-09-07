@@ -8,7 +8,13 @@ class Character:
     
     def is_alive():
       return hp > 0
-    
+    def apply_defense(self, target):
+      if self.Def > 0:
+        dmg = target.atk
+        dmg *= (self.Def/10) # if def = 1 this should be 0.1, which would technically be 10% of damage, right?
+        self.hp -= dmg
+      else:
+        self.hp -= target.atk
 
 class Player(Character):
   def __init__(self, name, hp, lvl, atk, Def, mny, max_hp, upp, sta, max_sta, inv, invs):
@@ -40,6 +46,7 @@ class Player(Character):
       if self.sta >= skill.cost:
         self.sta -= skill.cost
 
-class Boss(Character):
-  def __init__(self, name, hp, lvl, atk, Def):
+class Enemy(Character):
+  def __init__(self, name, hp, lvl, atk, Def, attacks):
     super().__init__(name, hp, lvl, atk, Def)
+    self.attacks = {}

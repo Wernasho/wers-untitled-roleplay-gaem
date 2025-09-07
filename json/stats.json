@@ -1,7 +1,7 @@
 {
-  "sta": 2,
-  "Def": 12,
-  "max_hp": 10,
-  "inv": 5,
-  "atk": 9
+  "sta": {"cost": 2, "adds": 3},
+  "Def": {"cost":12, "adds": 1},
+  "max_hp": {"cost": 10, "adds": 6},
+  "inv": {"cost": 5, "adds": 2},
+  "atk": {"cost": 9, "adds": 4}
 }

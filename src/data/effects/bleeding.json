@@ -1,0 +1,9 @@
+{
+  "id": "bleeding",
+  "name": "Bleeding",
+  "type": "overTimeDmg",
+  "defLvl": 1,
+  "dmgBonusPerLevel": 2,
+  "duration": 2,
+  "damage": 2
+}
